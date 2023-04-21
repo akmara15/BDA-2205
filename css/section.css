@@ -1,0 +1,316 @@
+html {
+
+  background-image: linear-gradient(rgba(37, 33, 34, 0.7), rgba(85, 39, 75, 0.7)), url(services_bgg.jpg.jpeg); 
+ 
+  background-position: center;
+  
+  background-size: cover;
+  min-height: 100%;
+}
+
+* {
+
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown {  
+
+position: relative; 
+
+display: inline-block; 
+}
+
+.dropdown-content {
+
+display: none; 
+position: absolute; 
+
+z-index: 1; 
+
+background-color: rgba(0, 0, 0, 0.5); 
+
+border-radius: 2px; 
+}
+
+.dropdown:hover .dropdown-content {
+display: block; 
+}
+
+.dropdown-content a {
+
+display: block; 
+
+padding: 10px; 
+
+text-decoration: none; 
+
+color: black; 
+}
+
+.dropdown-content a:hover {
+
+background: linear-gradient(to bottom, rgba(255, 192, 203, 0.9), rgba(255, 105, 180, 0.9)); 
+}
+
+.container {
+height: 1000px; 
+margin: 20px;
+}
+
+.forms-parent {
+display: flex; 
+flex-wrap: wrap; 
+justify-content: center; 
+padding: 50px; 
+margin-right: 150px; 
+margin-left: 150px; 
+}
+
+.forms-parent .serviceblock {
+margin-right: 25px;
+margin-left: 25px; 
+margin-top: 30px; 
+}
+
+.serviceblock {
+background-color: rgba(77, 0, 87, 0.2);
+max-height: 400px;
+max-width: 250px; 
+padding: 10px; 
+text-align: center; 
+border-radius: 10px; 
+font-family: Arial, Helvetica, sans-serif;}
+
+.serviceblock h2 {
+color: white; 
+flex-wrap: nowrap;
+font-weight: lighter; 
+text-shadow: 2px 1px 1px #000; 
+}
+
+.serviceblock h4 {
+color: white; 
+margin-right: 10px; 
+margin-left: 10px;
+flex-wrap: nowrap; 
+font-weight: lighter;
+text-align: justify;
+}
+
+.serviceblock .btn {
+background-color: #FFC0CB; 
+border-radius: 5px;
+border: none; 
+color: white;
+cursor: pointer;
+display: inline-block; 
+font-size: 16px; 
+font-weight: lighter; 
+margin: 5px; 
+padding: 10px 20px;
+text-align: center;
+text-decoration: none; 
+}
+
+.serviceblock .btn:hover {
+background: linear-gradient(to bottom, #FFC0CB, #FF69B4); 
+}
+
+.serviceblock h4::before {
+content: "";  
+display: block; 
+height: 1px;  
+width: 100%;  
+background-color: white;  
+margin: 5px 0; 
+}
+
+.serviceblock h4::after {
+content: "";  
+display: block; 
+height: 1px;  
+width: 100%;  
+background-color: white;
+margin: 10px 0;  
+}
+
+.serv-img {
+margin: 10px;
+height: 120px; 
+width: 165px; 
+object-fit: cover; 
+object-position: center; 
+border-radius: 10px; 
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.Header-text {
+text-align: center; 
+font-size: 75px; 
+padding-top: 50px; 
+color: white; 
+flex-wrap: nowrap; 
+text-shadow: 2px 1px 1px #000;
+}
+
+.header {
+min-height: 80vx; 
+width: 100%; 
+position: relative; 
+}
+
+
+nav {
+display: flex; 
+padding: 4% 7%; 
+justify-content: space-between; 
+align-items: center; 
+flex-basis: 0%; 
+}
+
+
+nav img {
+position: absolute;
+top: 40px;
+left: 30px; 
+border-radius: 50%; 
+}
+
+.nav-links {
+
+flex: 1;
+text-align: right;
+
+position: absolute;
+
+top: 20px;
+
+right: 20px;
+
+margin-left: 5%;
+}
+
+.nav-links ul li {
+
+list-style: none;
+
+display: inline-block;
+
+padding: 8px, 12px;
+
+position: relative;
+
+justify-content: space-between;
+align-items:baseline;
+
+line-height: 20%;
+
+flex-wrap: nowrap;
+}
+
+.nav-links ul li a{
+
+color: white;
+
+text-decoration: none;
+
+font-size:18px;
+
+line-height: 20px;
+}
+
+.V {
+position: absolute;
+top: 60px; 
+left: 125px; 
+color: white;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: italic; 
+font-size: 36px; 
+font-weight: 350;
+}
+
+.p {
+margin-left: 21px;
+margin-right: 21px; 
+}
+
+.nav-links ul li::after{
+
+content: '';
+width: 0%;
+height: 2px;
+background: rgb(148, 42, 137);
+display: block;
+margin-left: auto;
+transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+
+width: 100%;
+}
+
+.text-box{
+
+margin-top: 8%;
+}
+
+
+
+.p {
+  margin-top: 13%;
+}
+
+.heidi {
+  padding-top: 1%;
+  background-color: rgb(151, 83, 86);
+  height: 220px;
+  display: flex;
+}
+.heid img {
+  border-radius: 50%;
+  margin-top: 4%;
+  margin-left: 4%;
+}
+.hd3 {
+  font-size: 19px;
+  color: #f0ebeb;
+  margin-left: 1%;
+  margin-top: 2%;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+}
+.hd4 {
+  font-size: 25px;
+  color: #abcb2a;
+  margin-top: 0%;
+  margin-left: 8%;
+}
+.hd5 {
+    font-size: 19px;
+    color: #ecdede;
+    margin-top: 4.5%;
+    margin-left: 5%;
+
+}
+.hd6 {
+  margin-top: 0%;
+  width: 30px;
+  height: 30px;
+}
+.hd7 {
+  margin-top: 0%;
+  width: 30px;
+  height: 30px;
+  padding: -20%;
+  color: #ecdede;
+}
+.hd8 {
+  margin-top: 4.5%;
+  margin-right: 2%;
+  color: #200b7c;
+  margin-left: 1%;
+  
+}
